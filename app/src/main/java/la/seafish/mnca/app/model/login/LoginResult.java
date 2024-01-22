@@ -1,4 +1,4 @@
-package la.seafish.mnca.app.model;
+package la.seafish.mnca.app.model.login;
 
 
 import lombok.Data;

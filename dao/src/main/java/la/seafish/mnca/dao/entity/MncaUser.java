@@ -11,7 +11,7 @@ import java.io.Serializable;
 @TableName("mnca_user")
 @Data
 public class MncaUser implements Serializable {
-    @TableId(type=IdType.AUTO)
+    @TableId(type=IdType.NONE)
     private String mncaId;
 
     private String password;
